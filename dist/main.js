@@ -1,0 +1,8 @@
+"use strict";
+
+(async () => {
+  const response = await fetch('free.json');
+  const data = await response.json();
+  const total = data.length;
+})();
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9tYWluLmpzIl0sIm5hbWVzIjpbInJlc3BvbnNlIiwiZmV0Y2giLCJkYXRhIiwianNvbiIsInRvdGFsIiwibGVuZ3RoIl0sIm1hcHBpbmdzIjoiOztBQUFBLENBQUMsWUFBWTtBQUNaLFFBQU1BLFFBQVEsR0FBRyxNQUFNQyxLQUFLLENBQUMsV0FBRCxDQUE1QjtBQUNBLFFBQU1DLElBQUksR0FBRyxNQUFNRixRQUFRLENBQUNHLElBQVQsRUFBbkI7QUFFQSxRQUFNQyxLQUFLLEdBQUdGLElBQUksQ0FBQ0csTUFBbkI7QUFFQSxDQU5EIiwic291cmNlc0NvbnRlbnQiOlsiKGFzeW5jICgpID0+IHtcclxuXHRjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKCdmcmVlLmpzb24nKTtcclxuXHRjb25zdCBkYXRhID0gYXdhaXQgcmVzcG9uc2UuanNvbigpO1xyXG5cclxuXHRjb25zdCB0b3RhbCA9IGRhdGEubGVuZ3RoO1xyXG5cdFxyXG59KSgpOyJdfQ==
